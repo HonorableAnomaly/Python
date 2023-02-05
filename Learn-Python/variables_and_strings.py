@@ -43,3 +43,47 @@ age = 30
 child = None
 
 # help(keywords) to search for Python keywords
+
+# Can use quotes inside of other quotes
+my_other_str = "a cat"
+my_str = 'a hat'
+msg = "He said, 'Hello there!'"
+msg2 = 'He said, "Hello there!"'
+
+# Escape characters start with backslashes
+new_line = "Hello \n World!"
+
+backslash_str = "This is a backslash: \\"
+double_quotes = "She said \"Ha ha\""
+
+# Concatenation
+str_one = "Your"
+str_two = "face"
+str_three = str_one + " " + str_two
+str_four = "Jimmy"
+
+print("Hello there and welcome to the game, " + str_four)
+
+name = "Bond"
+name += (", James" + name)
+
+# F-strings
+#   If you want to use curly braces you need an f
+guess = 9
+print(f"Your guess of {guess} was incorrect!")
+print(f"Your guess of {guess + 1} was incorrect!")
+
+second_guess = f"Nice try, {name}, but your guess of {guess} was incorrect!"
+
+# Bad old 3.5 format!
+# print("Nice try, {}, but your guess of {} was incorrect!".format(name, guess))
+
+# Indices
+laugh = "lol"
+print(laugh[0])
+
+# Converting data types
+#   Use the data type as a precursor
+#   Don't use keywords as variable names!!!
+decimal = 13.325463
+integer = int(decimal)
