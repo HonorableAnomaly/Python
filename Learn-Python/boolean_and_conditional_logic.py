@@ -18,19 +18,19 @@ elif name == "Charmeleon":
     print("One more second...")
 else:
     print("Yeah baby! We've got Charizard!")
-    
+
 # Boolean
 x = 1
-x is 1 #Truthy
-x is 0 #Falsy
+x is 1  # Truthy
+x is 0  # Falsy
 # even without the x to prove, a 0 is inherent falsy while a 1 is inherent truthy
 
 animal = input("Enter your favorite animal")
-if animal: #inherent truthy if anything exists
+if animal:  # inherent truthy if anything exists
     print(animal + " is my favorite too! Jolly good!")
 else:
     print("Please talk to me!")
-    
+
 # Comparison operators
 1 == 1
 1 == 2
@@ -52,7 +52,7 @@ if age >= 18:
     print("You have responsibilities!")
 else:
     print("You have a paci!")
-    
+
 # Logical AND OR
 # AND, OR, NOT
 if drummer and has_drums:
@@ -70,19 +70,19 @@ else:
 
 if not is_weekend:
     print("Go to work")
-    
+
 child_age = 6
 if not ((child_age >= 2 and child_age <= 8) or child_age >= 65):
     print("You pay normal rate!")
 else:
     print("You are a child or senior")
-    
+
 # is vs. ==
 a = 1
-a == 1 #True
-a is 1 #True
+a == 1  # True
+a is 1  # True
 
 y = [1, 2, 3]
 b = [1, 2, 3]
-a == b #True #checks values
-a is b #False #checks memory
+a == b  # True #checks values
+a is b  # False #checks memory
